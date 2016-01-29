@@ -83,18 +83,19 @@ body {
 
 @include media-breakpoint-up(md) {
 	margin-top: 4rem;
-	.box {
-		border-radius: .4rem;
-	background-color: $paper;
-	box-shadow: 0 0 4rem rgba(0,0,0,.3), 0 0 0 1px #fff inset;
-	padding: 2rem 2rem 1rem;
-	}
+	
 	.form-control-label {
 		text-align: right;
 	}	
 	body {
 		background: url(../images/background-3.jpg) center center no-repeat #fff;
 		background-size: cover;
+	}
+	.box {
+		border-radius: .4rem;
+		background-color: $paper;
+		box-shadow: 0 0 4rem rgba(0,0,0,.3), 0 0 0 1px #fff inset;
+		padding: 2rem 2rem 1rem;
 	}
 }
 .form-control-label {
