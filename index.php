@@ -38,7 +38,7 @@
 			<form action="index.php?step-3" method="POST" >
 			  <div class="form-group row">
 			    <label for="input_cpr" class="col-md-3 form-control-label ">Dit CPR-nr.</label>
-			    <div class="col-md-9">
+			    <div class="col-md-9 col-lg-8">
 			      <input type="number" class="form-control" id="input_cpr" placeholder="CPR-nr">
 			      <small class="text-muted form-help">Indtast fx. 0102701234 uden bindesstreg eller mellemrum	
 			      </small>
@@ -47,11 +47,11 @@
 			  
 			  <div class="form-group row">
 			    <label for="input_account" class="col-md-3 col-xs-12 form-control-label ">Kontonr.</label>
-			    <div class="col-md-4 col-xs-4">
+			    <div class="col-md-4 col-xs-4 col-lg-3">
 			      <input type="number" class="form-control" id="input_reg" placeholder="Reg. nr">
 			    </div>
 
-			    <div class="col-md-5 col-xs-8">
+			    <div class="col-md-5 col-xs-8 col-lg-5">
 			      <input type="number" class="form-control" id="input_acount" placeholder="Kontonr.">
 			    </div>
 			  </div>
@@ -70,7 +70,7 @@
 			  
 			  
 			  <div class="form-group row">
-			    <div class=" col-sm-10 text-right">
+			    <div class="col-xs-12 col-lg-11 col-md-10 text-right">
 			    	<a href="?step-1" class="btn btn-sm btn-link pull-left">< Tilbage</a>	
 			      <button type="submit" class="btn btn-wa">Tilmeld PBS</button>
 			    </div>
@@ -117,7 +117,7 @@
 			  </div>
 			  
 			  <div class="form-group row">
-			    <div class="col-xs-12 text-right">
+			    <div class="col-xs-12 col-lg-11 col-md-10 text-right">
 			      <button type="submit" class="btn btn-wa">Fortsæt</button>
 			    </div>
 			  </div>
