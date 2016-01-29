@@ -1,23 +1,13 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="da">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>BT.dk</title>
+	<title>Weekendavisen</title>
 	<link rel="stylesheet" href="/dist/styles/main.css">
 </head>
 <body>
-
-
-
-
-
-
 
 
 <div class="container" id="content">
