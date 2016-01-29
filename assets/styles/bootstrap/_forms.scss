@@ -1,7 +1,9 @@
 //
 // Textual form controls
 //
-
+input[type="number"] {
+  box-shadow: none!important;
+}
 .form-control {
   display: block;
   width: 100%;
@@ -9,6 +11,7 @@
   // height: $input-height;
   padding: $input-padding-y $input-padding-x;
   font-size: $font-size-base;
+  font-family: arial;
   line-height: $line-height;
   color: $input-color;
   background-color: $input-bg;

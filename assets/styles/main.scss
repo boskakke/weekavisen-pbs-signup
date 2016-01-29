@@ -12,12 +12,11 @@ html, body {
 	height: 100%;
 }
 body {
-
 	background-color: #fff;
 }
 
 .mt {
-	margin-top: 4rem;
+	margin-top: 2rem;
 }
 .logo {
 	padding: 0 0  2rem 0;
@@ -27,7 +26,6 @@ body {
 	}
 }
 .box {
-	
 	
 
 	footer {
@@ -84,6 +82,7 @@ body {
 }
 
 @include media-breakpoint-up(md) {
+	margin-top: 4rem;
 	.box {
 		border-radius: .4rem;
 	background-color: $paper;

@@ -49,10 +49,10 @@
 			  <div class="form-group row">
 			  	<div class="col-md-9 col-md-offset-3">
 			  		<div class="tjek text-muted form-help">
-			    	<label>
+			    	
 			      	<input type="checkbox"> Jeg accepterer Weekendavisens <a href="#" class="help-trigger link-help">betingelser</a>
 			      	<span class="help-hidden hidden">Her kommer nogen betingelser</span>
-			    	</label>
+			    	
 			  	</div>		
 			  	</div>
 			  </div>
