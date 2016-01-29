@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import "bootstrap/bootstrap";
+@import "_variables";
+
+@import "buttons";
+
+
+$paper: #f9f9f7;
+
+html, body {
+	height: 100%;
+}
+body {
+
+	background-color: #fff;
+}
+
+.mt {
+	margin-top: 4rem;
+}
+.logo {
+	padding: 0 0  2rem 0;
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+.box {
+	
+	
+
+	footer {
+		text-align: center;
+		padding: 3rem 0 0 0;
+		p {
+			@extend .sans-serif;			
+			color: #999;
+			margin: 0 0 .1rem 0;
+			&:last-item {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.sans-serif {
+	font-family: $font-family-sans-serif;
+	font-size: 12px;
+}
+
+
+.text-pagination {	
+	@extend .sans-serif;
+	color: rgba(0,0,0,.6);
+}
+
+.form-help {
+	@extend .sans-serif;
+	font-weight: bold;
+	// line-height: 1.1;
+	display: block;
+	padding-top: .2rem;
+	.help-hidden {
+		display: block;
+		padding-top: .5rem;
+	}
+	.help-hidden.hidden {
+		display: none;
+	}
+}
+
+
+.link-wa {
+	color: $col-wa;
+	&:hover {
+		color: darken($col-wa, 10%);
+	}
+}
+
+
+.tjek {
+	@extend .sans-serif;
+}
+
+@include media-breakpoint-up(md) {
+	.box {
+		border-radius: .4rem;
+	background-color: $paper;
+	box-shadow: 0 0 4rem rgba(0,0,0,.3), 0 0 0 1px #fff inset;
+	padding: 2rem 2rem 1rem;
+	}
+	.form-control-label {
+		text-align: right;
+	}	
+	body {
+		background: url(../images/background-3.jpg) center center no-repeat #fff;
+		background-size: cover;
+	}
+}
+.form-control-label {
+	@extend .sans-serif;
+	font-weight: bold;
+	color: #777;
+	padding-top: .575rem;
+}
